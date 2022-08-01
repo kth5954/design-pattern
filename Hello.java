@@ -13,7 +13,9 @@ public class Hello {
         Singleton a = Singleton.getInstance();
         Singleton b = Singleton.getInstance();
         System.out.println(a.hashCode());
+        System.out.println(a);
         System.out.println(b.hashCode());
+        System.out.println(b);
         if (a == b) {
             System.out.println(true);
         }
