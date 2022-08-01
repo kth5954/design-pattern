@@ -1,3 +1,4 @@
+package singleton;
 class Singleton {
 	private static class singleInstanceHolder {
     	private static final Singleton INSTANCE = new Singleton();
@@ -24,6 +25,8 @@ public class Hello {
 }
 /*
 112810359
+Singleton@6b95977
 112810359
+Singleton@6b95977
 true
  */
